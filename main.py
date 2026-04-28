@@ -11,6 +11,7 @@ mask_dir = "details/attack/adversarial_yolo_master/masks"
 base_mask = np.loadtxt(f"{mask_dir}/base_mask.txt")
 text_mask = np.loadtxt(f"{mask_dir}/text_mask.txt")
 
+os.makedirs("data", exist_ok=True)
 size = 416
 
 base_mask = np.array(Image.fromarray(base_mask).resize((size, size))).clip(0,1)
