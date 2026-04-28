@@ -35,7 +35,7 @@ details/attack/adversarial_yolo_master/masks/base_mask.txt
 
 details/attack/adversarial_yolo_master/masks/text_mask.txt
 
-You can obtain them from: https://github.com/Fraunhofer-AISEC/CARLA-A3
+You can obtain them from: https://github.com/Fraunhofer-AISEC/CARLA-A3. They are not easily accessible from the repo though, you will need to set up the CARLA-A3 environment first and after that locate the corresponding mask files within the project structure.
 
 ## How to run with CARLA-A3
 
